@@ -1,0 +1,12 @@
+.grid__paragraph {
+  margin: 0 0 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #FFFFFF;
+}
+
+.grid__paragraph:last-of-type {
+  margin: 0;
+}
