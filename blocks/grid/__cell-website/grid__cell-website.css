@@ -2,3 +2,10 @@
   grid-area: website;
   align-self: end;
 }
+
+@media screen and (max-width: 610px) {
+  .grid__cell-website {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

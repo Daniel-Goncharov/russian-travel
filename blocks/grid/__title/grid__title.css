@@ -5,3 +5,24 @@
   font-size: 72px;
   line-height: 1.06;
 }
+
+@media screen and (max-width: 1023px) {
+  .grid__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .grid__title {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

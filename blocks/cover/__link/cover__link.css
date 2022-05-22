@@ -1,7 +1,7 @@
 .cover__link {
   max-width: 100%;
   width: 100%;
-  min-height: 740px;
+  min-height: calc(200px + 540 * ((100vw - 320px) / (1280 - 320)));
   text-decoration: none;
   color: #fff;
   display: flex;
@@ -31,3 +31,4 @@
   opacity: 0.8;
   z-index: 1;
 }
+

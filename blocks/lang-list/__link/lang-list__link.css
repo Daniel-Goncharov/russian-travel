@@ -1,4 +1,4 @@
-.header-menu__lang-list-item {
+.lang-list__link {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -8,6 +8,13 @@
   justify-self: end;
 }
 
-.header-menu__lang-list-item:hover {
+.lang-list__link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .lang-list__link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }
