@@ -1,5 +1,6 @@
 .grid__image {
-  width: 100%;
+  max-width: 100%;
+  grid-area: image;
   object-fit: cover;
   object-position: center;
   display: block;

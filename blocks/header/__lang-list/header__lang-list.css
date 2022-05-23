@@ -1,5 +1,6 @@
-.lang-list {
-  width: 77px;
+.header__lang-list {
+  max-width: 77px;
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lang-list {
-    width: 62px;
+  .header__lang-list {
+    max-width: 62px;
   }
 }
