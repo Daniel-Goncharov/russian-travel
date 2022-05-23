@@ -11,6 +11,6 @@
   .footer__list {
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: repeat(5, minmax(min-content, max-content));
-    grid-row-gap: 32px;
+    grid-row-gap: calc(32px - 16 * ((100vw - 320px) / (1280 - 320)));
   }
 }

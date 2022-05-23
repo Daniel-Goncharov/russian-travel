@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 680px) {
   .grid__cell-website {
     padding-right: 16px;
     padding-left: 16px;
