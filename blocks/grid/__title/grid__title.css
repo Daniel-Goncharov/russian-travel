@@ -15,18 +15,13 @@
 
 @media screen and (max-width: 767px) {
   .grid__title {
-<<<<<<< HEAD
-    font-size: calc(32px + 10 * ((100vw - 320px) / (1280 - 320)));
-=======
-    font-size: calc(32px + 10 * ((100vw - 320px) / (1280 - 320))) 1fr;;
->>>>>>> 0081bc96bac5eaa84d41ea3043982e24d429b473
     line-height: 1.09;
   }
 }
 
 @media screen and (max-width: 680px) {
   .grid__title {
-    font-size: 32px;
+    font-size: calc(32px + 10 * ((100vw - 320px) / (1280 - 320)));
     padding-right: 16px;
     padding-left: 16px;
   }
