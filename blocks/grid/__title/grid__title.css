@@ -8,19 +8,19 @@
 
 @media screen and (max-width: 1023px) {
   .grid__title {
-    font-size: 42px;
+    font-size: calc(42px + 30 * ((100vw - 768px) / (1280 - 768)));
     line-height: 1.1;
   }
 }
 
 @media screen and (max-width: 767px) {
   .grid__title {
-    font-size: 32px;
+    font-size: calc(32px + 10 * ((100vw - 320px) / (1280 - 320)));
     line-height: 1.09;
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 680px) {
   .grid__title {
     padding-right: 16px;
     padding-left: 16px;
